@@ -10,7 +10,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController,TimeComponentsDelegate {
+class SecondViewController: UIViewController {
 
     @IBOutlet weak var picker: UIPickerView!
     
