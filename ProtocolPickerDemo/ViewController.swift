@@ -11,7 +11,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,TimeComponentsDelegate {
+class ViewController: UIViewController {
     
     
     @IBOutlet weak var picker: UIPickerView!
