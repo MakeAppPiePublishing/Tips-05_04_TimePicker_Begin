@@ -2,17 +2,23 @@
 //  ViewController.swift
 //  ProtocolPickerDemo
 //
-//  Created by Steven Lipton on 10/18/18.
-//  Copyright © 2018 Steven Lipton. All rights reserved.
+//
+//  An exercise file for iOS Development Tips Weekly
+//  by Steven Lipton (C)2018, All rights reserved
+//  For videos go to http://bit.ly/TipsLinkedInLearning
+//  For code go to http://bit.ly/AppPieGithub
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,TimeComponentsDelegate {
+    
+    
+    @IBOutlet weak var picker: UIPickerView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
 
 
